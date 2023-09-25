@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe Form</title>
+    <link rel="stylesheet" href="main.css">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+
+    <!---box-Icons-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="subscribe"></div>
+    <div class="header">
+
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="logo2.png" width="125px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>  
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#subscribe">Subscribe</a></li>
+                    </ul>
+                </nav>
+                <img src="cart.png" width="30px" height="30px">
+            </div>
+            <div class="form-box">
+                <h2>SUBCRIBE FORM</h2><br>
+                <form>
+                    <label for="email"> Email Address:</label><br>
+                    <input type="email" id="email" name="email" class="email"><br><br>
+                    <label for="fname"class="fname"> First name:</label>
+                    <label for="lname" class="lname"> Last name:</label><br>
+                    <input type="text" id="fname" name="fname" class="name">
+                    <input type="text" id="lname" name="lname"class="name"><br><br>
+                    <label for="Notify"> Notify When:</label>
+                    <label for="status" class="status"> Status:</label><br>
+                    <select class="box">
+                        <option>Discount</option>
+                        <option>New Products</option>
+                    </select>
+                    <select class="box">
+                        <option>Updated</option>
+                        <option>New Release</option>
+                    </select><br>
+                    <input type="checkbox" id="agree" name="agree" class="agree">
+                    <label for="agree"> I Agree with all terms and conditions</label><br>
+                    <input type="submit" value="Subscribe" class="subscribe">
+                </form>
+            </div>
+        </div>
+    </div>  
+    
+</body>
+</html>
